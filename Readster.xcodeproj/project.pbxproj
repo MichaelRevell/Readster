@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C20B5614C2884200BE04F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C20B5514C2884200BE04F1 /* UIKit.framework */; };
+		41C20B5814C2884200BE04F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C20B5714C2884200BE04F1 /* Foundation.framework */; };
+		41C20B5A14C2884200BE04F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C20B5914C2884200BE04F1 /* CoreGraphics.framework */; };
+		41C20B6014C2884200BE04F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B5E14C2884200BE04F1 /* InfoPlist.strings */; };
+		41C20B6214C2884200BE04F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C20B6114C2884200BE04F1 /* main.m */; };
+		41C20B6614C2884200BE04F1 /* ReadsterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C20B6514C2884200BE04F1 /* ReadsterAppDelegate.m */; };
+		41C20B6914C2884200BE04F1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B6714C2884200BE04F1 /* MainWindow.xib */; };
+		41C20B6C14C2884200BE04F1 /* ReadsterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C20B6B14C2884200BE04F1 /* ReadsterViewController.m */; };
+		41C20B6F14C2884200BE04F1 /* ReadsterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B6D14C2884200BE04F1 /* ReadsterViewController.xib */; };
+		41C20B7714C2884200BE04F1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C20B7614C2884200BE04F1 /* SenTestingKit.framework */; };
+		41C20B7814C2884200BE04F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C20B5514C2884200BE04F1 /* UIKit.framework */; };
+		41C20B7914C2884200BE04F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C20B5714C2884200BE04F1 /* Foundation.framework */; };
+		41C20B7A14C2884200BE04F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C20B5914C2884200BE04F1 /* CoreGraphics.framework */; };
+		41C20B8214C2884200BE04F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B8014C2884200BE04F1 /* InfoPlist.strings */; };
+		41C20B8414C2884200BE04F1 /* ReadsterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B8314C2884200BE04F1 /* ReadsterTests.h */; };
+		41C20B8614C2884200BE04F1 /* ReadsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C20B8514C2884200BE04F1 /* ReadsterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41C20B7B14C2884200BE04F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C20B4814C2884100BE04F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C20B5014C2884200BE04F1;
+			remoteInfo = Readster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41C20B5114C2884200BE04F1 /* Readster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C20B5514C2884200BE04F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41C20B5714C2884200BE04F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41C20B5914C2884200BE04F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41C20B5D14C2884200BE04F1 /* Readster-Info.plist */ = {isa = PBXFileReference; path = "Readster-Info.plist"; sourceTree = "<group>"; };
+		41C20B5F14C2884200BE04F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C20B6114C2884200BE04F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C20B6314C2884200BE04F1 /* Readster-Prefix.pch */ = {isa = PBXFileReference; path = "Readster-Prefix.pch"; sourceTree = "<group>"; };
+		41C20B6414C2884200BE04F1 /* ReadsterAppDelegate.h */ = {isa = PBXFileReference; path = ReadsterAppDelegate.h; sourceTree = "<group>"; };
+		41C20B6514C2884200BE04F1 /* ReadsterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadsterAppDelegate.m; sourceTree = "<group>"; };
+		41C20B6814C2884200BE04F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		41C20B6A14C2884200BE04F1 /* ReadsterViewController.h */ = {isa = PBXFileReference; path = ReadsterViewController.h; sourceTree = "<group>"; };
+		41C20B6B14C2884200BE04F1 /* ReadsterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadsterViewController.m; sourceTree = "<group>"; };
+		41C20B6E14C2884200BE04F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReadsterViewController.xib; sourceTree = "<group>"; };
+		41C20B7514C2884200BE04F1 /* ReadsterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadsterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C20B7614C2884200BE04F1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		41C20B7F14C2884200BE04F1 /* ReadsterTests-Info.plist */ = {isa = PBXFileReference; path = "ReadsterTests-Info.plist"; sourceTree = "<group>"; };
+		41C20B8114C2884200BE04F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C20B8314C2884200BE04F1 /* ReadsterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadsterTests.h; sourceTree = "<group>"; };
+		41C20B8514C2884200BE04F1 /* ReadsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadsterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C20B4E14C2884200BE04F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C20B5614C2884200BE04F1 /* UIKit.framework in Frameworks */,
+				41C20B5814C2884200BE04F1 /* Foundation.framework in Frameworks */,
+				41C20B5A14C2884200BE04F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C20B7114C2884200BE04F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C20B7714C2884200BE04F1 /* SenTestingKit.framework in Frameworks */,
+				41C20B7814C2884200BE04F1 /* UIKit.framework in Frameworks */,
+				41C20B7914C2884200BE04F1 /* Foundation.framework in Frameworks */,
+				41C20B7A14C2884200BE04F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C20B4614C2884100BE04F1 = {
+			isa = PBXGroup;
+			children = (
+				41C20B5B14C2884200BE04F1 /* Readster */,
+				41C20B7D14C2884200BE04F1 /* ReadsterTests */,
+				41C20B5414C2884200BE04F1 /* Frameworks */,
+				41C20B5214C2884200BE04F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C20B5214C2884200BE04F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C20B5114C2884200BE04F1 /* Readster.app */,
+				41C20B7514C2884200BE04F1 /* ReadsterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C20B5414C2884200BE04F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C20B5514C2884200BE04F1 /* UIKit.framework */,
+				41C20B5714C2884200BE04F1 /* Foundation.framework */,
+				41C20B5914C2884200BE04F1 /* CoreGraphics.framework */,
+				41C20B7614C2884200BE04F1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41C20B5B14C2884200BE04F1 /* Readster */ = {
+			isa = PBXGroup;
+			children = (
+				41C20B6414C2884200BE04F1 /* ReadsterAppDelegate.h */,
+				41C20B6514C2884200BE04F1 /* ReadsterAppDelegate.m */,
+				41C20B6714C2884200BE04F1 /* MainWindow.xib */,
+				41C20B6A14C2884200BE04F1 /* ReadsterViewController.h */,
+				41C20B6B14C2884200BE04F1 /* ReadsterViewController.m */,
+				41C20B6D14C2884200BE04F1 /* ReadsterViewController.xib */,
+				41C20B5C14C2884200BE04F1 /* Supporting Files */,
+			);
+			path = Readster;
+			sourceTree = "<group>";
+		};
+		41C20B5C14C2884200BE04F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C20B5D14C2884200BE04F1 /* Readster-Info.plist */,
+				41C20B5E14C2884200BE04F1 /* InfoPlist.strings */,
+				41C20B6114C2884200BE04F1 /* main.m */,
+				41C20B6314C2884200BE04F1 /* Readster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C20B7D14C2884200BE04F1 /* ReadsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				41C20B8314C2884200BE04F1 /* ReadsterTests.h */,
+				41C20B8514C2884200BE04F1 /* ReadsterTests.m */,
+				41C20B7E14C2884200BE04F1 /* Supporting Files */,
+			);
+			path = ReadsterTests;
+			sourceTree = "<group>";
+		};
+		41C20B7E14C2884200BE04F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C20B7F14C2884200BE04F1 /* ReadsterTests-Info.plist */,
+				41C20B8014C2884200BE04F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C20B5014C2884200BE04F1 /* Readster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C20B8914C2884200BE04F1 /* Build configuration list for PBXNativeTarget "Readster" */;
+			buildPhases = (
+				41C20B4D14C2884200BE04F1 /* Sources */,
+				41C20B4E14C2884200BE04F1 /* Frameworks */,
+				41C20B4F14C2884200BE04F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Readster;
+			productName = Readster;
+			productReference = 41C20B5114C2884200BE04F1 /* Readster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41C20B7414C2884200BE04F1 /* ReadsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C20B8C14C2884200BE04F1 /* Build configuration list for PBXNativeTarget "ReadsterTests" */;
+			buildPhases = (
+				41C20B7014C2884200BE04F1 /* Sources */,
+				41C20B7114C2884200BE04F1 /* Frameworks */,
+				41C20B7214C2884200BE04F1 /* Resources */,
+				41C20B7314C2884200BE04F1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C20B7C14C2884200BE04F1 /* PBXTargetDependency */,
+			);
+			name = ReadsterTests;
+			productName = ReadsterTests;
+			productReference = 41C20B7514C2884200BE04F1 /* ReadsterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C20B4814C2884100BE04F1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 41C20B4B14C2884100BE04F1 /* Build configuration list for PBXProject "Readster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41C20B4614C2884100BE04F1;
+			productRefGroup = 41C20B5214C2884200BE04F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C20B5014C2884200BE04F1 /* Readster */,
+				41C20B7414C2884200BE04F1 /* ReadsterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C20B4F14C2884200BE04F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C20B6014C2884200BE04F1 /* InfoPlist.strings in Resources */,
+				41C20B6914C2884200BE04F1 /* MainWindow.xib in Resources */,
+				41C20B6F14C2884200BE04F1 /* ReadsterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C20B7214C2884200BE04F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C20B8214C2884200BE04F1 /* InfoPlist.strings in Resources */,
+				41C20B8414C2884200BE04F1 /* ReadsterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C20B7314C2884200BE04F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C20B4D14C2884200BE04F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C20B6214C2884200BE04F1 /* main.m in Sources */,
+				41C20B6614C2884200BE04F1 /* ReadsterAppDelegate.m in Sources */,
+				41C20B6C14C2884200BE04F1 /* ReadsterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C20B7014C2884200BE04F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C20B8614C2884200BE04F1 /* ReadsterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41C20B7C14C2884200BE04F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C20B5014C2884200BE04F1 /* Readster */;
+			targetProxy = 41C20B7B14C2884200BE04F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41C20B5E14C2884200BE04F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C20B5F14C2884200BE04F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41C20B6714C2884200BE04F1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C20B6814C2884200BE04F1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		41C20B6D14C2884200BE04F1 /* ReadsterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C20B6E14C2884200BE04F1 /* en */,
+			);
+			name = ReadsterViewController.xib;
+			sourceTree = "<group>";
+		};
+		41C20B8014C2884200BE04F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C20B8114C2884200BE04F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C20B8714C2884200BE04F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41C20B8814C2884200BE04F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C20B8A14C2884200BE04F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Readster/Readster-Prefix.pch";
+				INFOPLIST_FILE = "Readster/Readster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41C20B8B14C2884200BE04F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Readster/Readster-Prefix.pch";
+				INFOPLIST_FILE = "Readster/Readster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41C20B8D14C2884200BE04F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Readster.app/Readster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Readster/Readster-Prefix.pch";
+				INFOPLIST_FILE = "ReadsterTests/ReadsterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		41C20B8E14C2884200BE04F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Readster.app/Readster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Readster/Readster-Prefix.pch";
+				INFOPLIST_FILE = "ReadsterTests/ReadsterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C20B4B14C2884100BE04F1 /* Build configuration list for PBXProject "Readster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C20B8714C2884200BE04F1 /* Debug */,
+				41C20B8814C2884200BE04F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C20B8914C2884200BE04F1 /* Build configuration list for PBXNativeTarget "Readster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C20B8A14C2884200BE04F1 /* Debug */,
+				41C20B8B14C2884200BE04F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41C20B8C14C2884200BE04F1 /* Build configuration list for PBXNativeTarget "ReadsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C20B8D14C2884200BE04F1 /* Debug */,
+				41C20B8E14C2884200BE04F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C20B4814C2884100BE04F1 /* Project object */;
+}
