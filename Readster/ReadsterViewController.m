@@ -41,7 +41,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *urlAddress = @"http://dl.dropbox.com/u/1302719/readster.htm";
+    NSString *urlAddress = @"http://okgodoit.com/news-speed-reader/app.htm";
     
     NSURL *url = [NSURL URLWithString:urlAddress];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];

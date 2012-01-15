@@ -23,6 +23,11 @@
 		41C20B8214C2884200BE04F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B8014C2884200BE04F1 /* InfoPlist.strings */; };
 		41C20B8414C2884200BE04F1 /* ReadsterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B8314C2884200BE04F1 /* ReadsterTests.h */; };
 		41C20B8614C2884200BE04F1 /* ReadsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C20B8514C2884200BE04F1 /* ReadsterTests.m */; };
+		41C20B9414C2993A00BE04F1 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B8F14C2993A00BE04F1 /* icon-32.png */; };
+		41C20B9514C2993A00BE04F1 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B9014C2993A00BE04F1 /* icon-48.png */; };
+		41C20B9614C2993A00BE04F1 /* icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B9114C2993A00BE04F1 /* icon-64.png */; };
+		41C20B9714C2993A00BE04F1 /* splash-org.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B9214C2993A00BE04F1 /* splash-org.png */; };
+		41C20B9814C2993A00BE04F1 /* splash-ret.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C20B9314C2993A00BE04F1 /* splash-ret.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,11 @@
 		41C20B8114C2884200BE04F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41C20B8314C2884200BE04F1 /* ReadsterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadsterTests.h; sourceTree = "<group>"; };
 		41C20B8514C2884200BE04F1 /* ReadsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadsterTests.m; sourceTree = "<group>"; };
+		41C20B8F14C2993A00BE04F1 /* icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-32.png"; sourceTree = "<group>"; };
+		41C20B9014C2993A00BE04F1 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-48.png"; sourceTree = "<group>"; };
+		41C20B9114C2993A00BE04F1 /* icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-64.png"; sourceTree = "<group>"; };
+		41C20B9214C2993A00BE04F1 /* splash-org.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-org.png"; sourceTree = "<group>"; };
+		41C20B9314C2993A00BE04F1 /* splash-ret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-ret.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +140,11 @@
 		41C20B5C14C2884200BE04F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41C20B8F14C2993A00BE04F1 /* icon-32.png */,
+				41C20B9014C2993A00BE04F1 /* icon-48.png */,
+				41C20B9114C2993A00BE04F1 /* icon-64.png */,
+				41C20B9214C2993A00BE04F1 /* splash-org.png */,
+				41C20B9314C2993A00BE04F1 /* splash-ret.png */,
 				41C20B5D14C2884200BE04F1 /* Readster-Info.plist */,
 				41C20B5E14C2884200BE04F1 /* InfoPlist.strings */,
 				41C20B6114C2884200BE04F1 /* main.m */,
@@ -227,6 +242,11 @@
 				41C20B6014C2884200BE04F1 /* InfoPlist.strings in Resources */,
 				41C20B6914C2884200BE04F1 /* MainWindow.xib in Resources */,
 				41C20B6F14C2884200BE04F1 /* ReadsterViewController.xib in Resources */,
+				41C20B9414C2993A00BE04F1 /* icon-32.png in Resources */,
+				41C20B9514C2993A00BE04F1 /* icon-48.png in Resources */,
+				41C20B9614C2993A00BE04F1 /* icon-64.png in Resources */,
+				41C20B9714C2993A00BE04F1 /* splash-org.png in Resources */,
+				41C20B9814C2993A00BE04F1 /* splash-ret.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
