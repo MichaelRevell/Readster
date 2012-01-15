@@ -9,6 +9,7 @@
 #import "ReadsterViewController.h"
 
 @implementation ReadsterViewController
+@synthesize webView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -27,6 +28,27 @@
     [super viewDidLoad];
 }
 */
+- (void)applicationDidFinishLaunching:(UIApplication *)application 
+{    
+    
+    // Override point for customization after application launch
+    
+    // This disables the autosleep  I added this to TEST, 
+    // delete later if you want:-
+    application.idleTimerDisabled = YES;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    NSString *urlAddress = @"http://dl.dropbox.com/u/1302719/readster.htm#technology,300wpm";
+    
+    NSURL *url = [NSURL URLWithString:urlAddress];
+    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+    
+    [webView loadRequest:requestObj];
+    
+}
 
 - (void)viewDidUnload
 {
@@ -38,7 +60,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES; //(interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end

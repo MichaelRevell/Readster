@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ReadsterViewController : UIViewController
+@interface ReadsterViewController : UIViewController<UIWebViewDelegate> {
+    IBOutlet UIWebView *webView;
+}
+@property(nonatomic,retain) UIWebView *webView;
 
 @end
